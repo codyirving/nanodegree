@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_spotify_stream"
+    tools:context="com.codyirivng.nanodegree.SpotifyStreamFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/streamer_artist_name_textview"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/streamer_album_name_textview"
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:contentDescription="@string/AlbumThumb"
+        android:src="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+        android:id="@+id/streamer_album_thumbnail_imageview"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/streamer_track_name_textview"
+    />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/streamer_seekBar"
+        android:layout_gravity="center_horizontal" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/zeroSeconds"
+        android:id="@+id/currentTime"
+        android:gravity="start"
+        android:layout_weight="2"
+        android:layout_marginLeft="5dp" />
+    <TextView
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="@string/zeroSeconds"
+    android:id="@+id/totalTime"
+    android:gravity="end"
+        android:layout_weight="2"
+        android:layout_marginRight="5dp" />
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:layout_weight="0.75"
+    android:gravity="center">
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/button_back"
+        android:contentDescription="@string/backButton"
+        android:src="@drawable/stream_button_previous" />
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/playButton"
+        android:src="@drawable/stream_button_playpause"
+        android:id="@+id/button_playpause" />
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/nextButton"
+        android:src="@drawable/stream_button_next"
+        android:id="@+id/button_forward" />
+</LinearLayout>
+
+
+</LinearLayout>
+<!-- From: file:/Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/res/layout/fragment_spotify_stream.xml -->

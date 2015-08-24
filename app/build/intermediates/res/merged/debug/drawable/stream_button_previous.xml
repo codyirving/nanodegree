@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@android:drawable/ic_media_previous" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@android:drawable/ic_media_previous" /> <!-- focused -->
+    <item android:drawable="@android:drawable/ic_media_previous" /> <!-- default -->
+</selector><!-- From: file:/Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/res/drawable/stream_button_previous.xml -->

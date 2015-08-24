@@ -1,0 +1,102 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:6:22-77
+application
+ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:8:5-44:19
+MERGED from [:spotify-web-api-android-0.1.0:] /Users/codyirving/AndroidStudioProjects/nanodegree/app/build/intermediates/exploded-aar/spotify-web-api-android-0.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.0] /Users/codyirving/AndroidStudioProjects/nanodegree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] /Users/codyirving/AndroidStudioProjects/nanodegree/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:10:9-42
+	android:allowBackup
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:11:9-38
+	android:theme
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:13:9-70
+activity#com.codyirivng.nanodegree.MainActivity
+ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:15:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.codyirivng.nanodegree.SpotifyActivity
+ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:23:9-31:20
+	android:label
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:25:13-59
+	android:parentActivityName
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:26:13-55
+	android:configChanges
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:27:13-59
+	android:name
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:24:13-44
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:28:13-30:74
+	android:value
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:30:17-71
+	android:name
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:29:17-63
+activity#com.codyirivng.nanodegree.StreamActivity
+ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:32:1-35:53
+	android:label
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:33:5-36
+	android:parentActivityName
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:34:5-50
+	android:configChanges
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:35:5-51
+	android:name
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:32:11-41
+service#com.codyirivng.nanodegree.StreamService
+ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:39:9-43:19
+	android:enabled
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:40:13-42
+uses-sdk
+INJECTED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.0.0] /Users/codyirving/AndroidStudioProjects/nanodegree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.0] /Users/codyirving/AndroidStudioProjects/nanodegree/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:2:1-46:12 reason: com.spotify.webapi.android has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/AndroidManifest.xml:2:1-46:12 reason: com.spotify.webapi.android has a targetSdkVersion < 4

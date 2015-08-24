@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codyirivng.nanodegree.SpotifyActivity"
+    android:baselineAligned="false">
+
+    <fragment
+        android:id="@+id/fragment_spotify"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:name="com.codyirivng.nanodegree.SpotifyActivityFragment"
+        android:layout_weight="2"
+
+        />
+    <FrameLayout
+        android:id="@+id/artist_search_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+
+        />
+
+
+
+</LinearLayout>
+
+<!-- From: file:/Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/res/layout-sw600dp/activity_spotify.xml -->

@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.codyirivng.nanodegree.SpotifyActivityFragment">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/editTextSearchSpotify"
+        android:inputType="text"
+        android:hint="@string/enter_artist_name"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/listViewSpotify"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        />
+</LinearLayout><!-- From: file:/Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/res/layout/fragment_spotify_search.xml -->

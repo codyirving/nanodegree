@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.codyirivng.nanodegree.ArtistFragment"
+    android:id="@+id/fragment_artist"
+    >
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/listViewArtist"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp" />
+</FrameLayout>
+<!-- From: file:/Users/codyirving/AndroidStudioProjects/nanodegree/app/src/main/res/layout/fragment_artist.xml -->
